@@ -1,7 +1,7 @@
-# Rick-et-Mortimer
-*game de rapidite anti-stress.. ou stressant au choix..lol*
+# Rick & Mortimer
+*jeu de rapidite et de reflexe  anti-stress.. ou pas..lol*
 
-Tappes sur la tete de Mortimer chaque fois qu'elle apparait et monte de niveau des que c'est troop facile...
+Tappes sur la tete de Rick chaque fois qu'elle apparait et tente un nouveau niveau des que c'est trop facile...
 
 
 Petit jeu cree afin de mettre en pratique mes connaissances en Javascript.
