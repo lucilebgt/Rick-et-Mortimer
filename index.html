@@ -5,19 +5,19 @@
     <title>Whack A Mole!</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="img" style="text-align: center;">
-        <img src="Rick_and_Morty_logo.png" width="300px"><br>
+        <img src="rick_pics/Rick_and_Morty_logo.png" width="300px"><br>
         <span class="score">0</span>
     </div>
     <div class="play-img" style="text-align: center;">
         <a><img src="rick_pics/morty.png" style="width: 200px;margin-bottom: -50px;" id="morty-play"></a><br>
-        <a id="demo1" style="color: white;font-size: 40px;"></a>
-        <a id="demo2" style="color: white;font-size: 40px;"></a>
-        <a id="demo3" style="color: white;font-size: 40px;"></a>
+        <a class="demo" onClick="startGame()" id="demo1" style="color: white;font-size: 40px;"></a>
+        <a class="demo" onClick="startGameApprenti() " id="demo2" style="color: white;font-size: 40px;"></a>
+        <a class="demo" onClick="startGameExpert() " id="demo3" style="color: white;font-size: 40px;"></a>
     </div>
 
     <div class="game">
@@ -41,7 +41,7 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

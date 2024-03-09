@@ -14,7 +14,7 @@
 html {
 	box-sizing: border-box;
 	font-size: 10px;
-	background-color: rgb(68, 66, 171);
+	background-color: rgb(54, 138, 234);
 }
 
 
@@ -27,7 +27,7 @@ body {
 
 .score {
     margin-top: 50px;
-	color: rgb(124, 215, 230);
+	color: rgb(126, 204, 230);
 	padding: 0 3rem;
 	border-radius: 1rem;
     font-size: 80px;
@@ -62,7 +62,7 @@ body {
 	height: 70px;
 	position: absolute;
 	z-index: 2;
-	bottom: -30px;
+	bottom:-30px;
 }
 
 .head {
@@ -89,5 +89,3 @@ button {
 	font-size: 2em;
 	font-family: Jungle;
 }
-
-
